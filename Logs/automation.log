@@ -1,0 +1,534 @@
+11/30/2020 02:02:55 PM: INFO: ************* Test_001_Login *************
+11/30/2020 02:02:55 PM: INFO: ************* verify Home Page Title ******** 
+11/30/2020 02:02:57 PM: INFO: ************* Home Page Title Test is Passed ******** 
+11/30/2020 02:03:01 PM: INFO: ************* Verifying Login Test ******** 
+11/30/2020 02:03:07 PM: INFO: ************* Login Test is Passed ******** 
+12/02/2020 01:56:50 PM: INFO: ************* Test_001_Login *************
+12/02/2020 01:56:50 PM: INFO: ************* verify Home Page Title ******** 
+12/02/2020 01:56:52 PM: INFO: ************* Home Page Title Test is Passed ******** 
+12/02/2020 01:56:56 PM: INFO: ************* Verifying Login Test ******** 
+12/02/2020 01:57:06 PM: INFO: ************* Login Test is Passed ******** 
+12/02/2020 02:02:47 PM: INFO: ************* Verifying Login Test ******** 
+12/02/2020 02:02:47 PM: INFO: ************* Test_001_Login *************
+12/02/2020 02:02:47 PM: INFO: ************* verify Home Page Title ******** 
+12/02/2020 02:02:54 PM: INFO: ************* Home Page Title Test is Passed ******** 
+12/02/2020 02:03:00 PM: INFO: ************* Login Test is Passed ******** 
+12/02/2020 02:35:40 PM: INFO: ************* Verifying Login Test ******** 
+12/02/2020 02:35:40 PM: INFO: ************* Test_001_Login *************
+12/02/2020 02:35:40 PM: INFO: ************* verify Home Page Title ******** 
+12/02/2020 02:35:45 PM: INFO: ************* Login Test is Passed ******** 
+12/02/2020 02:35:47 PM: INFO: ************* Home Page Title Test is Passed ******** 
+12/02/2020 02:40:18 PM: INFO: ************* Test_001_Login *************
+12/02/2020 02:40:18 PM: INFO: ************* verify Home Page Title ******** 
+12/02/2020 02:40:18 PM: INFO: ************* Verifying Login Test ******** 
+12/02/2020 02:40:20 PM: INFO: ************* Home Page Title Test is Passed ******** 
+12/02/2020 02:40:23 PM: INFO: ************* Login Test is Passed ******** 
+12/02/2020 02:43:39 PM: INFO: ************* Verifying Login Test ******** 
+12/02/2020 02:43:39 PM: INFO: ************* Test_001_Login *************
+12/02/2020 02:43:39 PM: INFO: ************* verify Home Page Title ******** 
+12/02/2020 02:43:41 PM: INFO: ************* Home Page Title Test is Passed ******** 
+12/02/2020 02:43:48 PM: INFO: ************* Login Test is Passed ******** 
+12/02/2020 04:03:59 PM: INFO: ************** Test_002_DDT_Login *************
+12/02/2020 04:03:59 PM: INFO: ************* Verifying Login Test ******** 
+12/02/2020 04:04:08 PM: INFO: ******passed*********
+12/02/2020 04:20:32 PM: INFO: ************** Test_002_DDT_Login *************
+12/02/2020 04:20:32 PM: INFO: ************* Verifying Login DDT Test ******** 
+12/02/2020 04:20:41 PM: INFO: ******passed*********
+12/02/2020 04:28:59 PM: INFO: ************** Test_002_DDT_Login *************
+12/02/2020 04:28:59 PM: INFO: ************* Verifying Login DDT Test ******** 
+12/02/2020 04:29:08 PM: INFO: ******passed*********
+12/02/2020 04:30:24 PM: INFO: ************** Test_002_DDT_Login *************
+12/02/2020 04:30:24 PM: INFO: ************* Verifying Login DDT Test ******** 
+12/02/2020 04:30:33 PM: INFO: ******passed*********
+12/02/2020 05:11:48 PM: INFO: ************** Test_002_DDT_Login *************
+12/02/2020 05:11:48 PM: INFO: ************* Verifying Login DDT Test ******** 
+12/02/2020 05:11:59 PM: INFO: ******passed*********
+12/02/2020 05:12:05 PM: INFO: ***********Passed**********
+12/02/2020 05:12:10 PM: INFO: ***********Passed**********
+12/02/2020 05:12:16 PM: INFO: ***********Passed**********
+12/02/2020 05:12:16 PM: INFO: ***Login DDT test passed***
+12/02/2020 05:12:21 PM: INFO: ******* End of Login DDT Test ************
+12/02/2020 05:12:21 PM: INFO: ************Completed TC_LoginDDT_002********
+12/02/2020 06:06:49 PM: DEBUG: POST http://127.0.0.1:50274/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+12/02/2020 06:06:49 PM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:50274
+12/02/2020 06:06:52 PM: DEBUG: http://127.0.0.1:50274 "POST /session HTTP/1.1" 200 724
+12/02/2020 06:06:52 PM: DEBUG: Finished Request
+12/02/2020 06:06:52 PM: INFO: ************* Test_001_Login *************
+12/02/2020 06:06:52 PM: INFO: ************* verify Home Page Title ******** 
+12/02/2020 06:06:52 PM: DEBUG: POST http://127.0.0.1:50274/session/4d587c6068b8b13907cbf81ce407a045/url {"url": "https://admin-demo.nopcommerce.com/"}
+12/02/2020 06:06:54 PM: DEBUG: http://127.0.0.1:50274 "POST /session/4d587c6068b8b13907cbf81ce407a045/url HTTP/1.1" 200 14
+12/02/2020 06:06:54 PM: DEBUG: Finished Request
+12/02/2020 06:06:54 PM: DEBUG: GET http://127.0.0.1:50274/session/4d587c6068b8b13907cbf81ce407a045/title {}
+12/02/2020 06:06:54 PM: DEBUG: http://127.0.0.1:50274 "GET /session/4d587c6068b8b13907cbf81ce407a045/title HTTP/1.1" 200 29
+12/02/2020 06:06:54 PM: DEBUG: Finished Request
+12/02/2020 06:06:54 PM: DEBUG: DELETE http://127.0.0.1:50274/session/4d587c6068b8b13907cbf81ce407a045/window {}
+12/02/2020 06:06:54 PM: DEBUG: http://127.0.0.1:50274 "DELETE /session/4d587c6068b8b13907cbf81ce407a045/window HTTP/1.1" 200 12
+12/02/2020 06:06:54 PM: DEBUG: Finished Request
+12/02/2020 06:06:54 PM: INFO: ************* Home Page Title Test is Passed ******** 
+12/02/2020 06:06:55 PM: DEBUG: POST http://127.0.0.1:50291/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+12/02/2020 06:06:55 PM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:50291
+12/02/2020 06:06:58 PM: DEBUG: http://127.0.0.1:50291 "POST /session HTTP/1.1" 200 724
+12/02/2020 06:06:58 PM: DEBUG: Finished Request
+12/02/2020 06:06:58 PM: INFO: ************* Verifying Login Test ******** 
+12/02/2020 06:06:58 PM: DEBUG: POST http://127.0.0.1:50291/session/10b04b514a550a1752a8155bc4f53d3e/url {"url": "https://admin-demo.nopcommerce.com/"}
+12/02/2020 06:06:59 PM: DEBUG: http://127.0.0.1:50291 "POST /session/10b04b514a550a1752a8155bc4f53d3e/url HTTP/1.1" 200 14
+12/02/2020 06:06:59 PM: DEBUG: Finished Request
+12/02/2020 06:06:59 PM: DEBUG: POST http://127.0.0.1:50291/session/10b04b514a550a1752a8155bc4f53d3e/element {"using": "css selector", "value": "[id=\"Email\"]"}
+12/02/2020 06:06:59 PM: DEBUG: http://127.0.0.1:50291 "POST /session/10b04b514a550a1752a8155bc4f53d3e/element HTTP/1.1" 200 88
+12/02/2020 06:06:59 PM: DEBUG: Finished Request
+12/02/2020 06:06:59 PM: DEBUG: POST http://127.0.0.1:50291/session/10b04b514a550a1752a8155bc4f53d3e/element/edd4a763-cc82-45ce-8fb4-b555f27549e9/clear {"id": "edd4a763-cc82-45ce-8fb4-b555f27549e9"}
+12/02/2020 06:06:59 PM: DEBUG: http://127.0.0.1:50291 "POST /session/10b04b514a550a1752a8155bc4f53d3e/element/edd4a763-cc82-45ce-8fb4-b555f27549e9/clear HTTP/1.1" 200 14
+12/02/2020 06:06:59 PM: DEBUG: Finished Request
+12/02/2020 06:06:59 PM: DEBUG: POST http://127.0.0.1:50291/session/10b04b514a550a1752a8155bc4f53d3e/element {"using": "css selector", "value": "[id=\"Email\"]"}
+12/02/2020 06:07:00 PM: DEBUG: http://127.0.0.1:50291 "POST /session/10b04b514a550a1752a8155bc4f53d3e/element HTTP/1.1" 200 88
+12/02/2020 06:07:00 PM: DEBUG: Finished Request
+12/02/2020 06:07:00 PM: DEBUG: POST http://127.0.0.1:50291/session/10b04b514a550a1752a8155bc4f53d3e/element/edd4a763-cc82-45ce-8fb4-b555f27549e9/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "edd4a763-cc82-45ce-8fb4-b555f27549e9"}
+12/02/2020 06:07:00 PM: DEBUG: http://127.0.0.1:50291 "POST /session/10b04b514a550a1752a8155bc4f53d3e/element/edd4a763-cc82-45ce-8fb4-b555f27549e9/value HTTP/1.1" 200 14
+12/02/2020 06:07:00 PM: DEBUG: Finished Request
+12/02/2020 06:07:00 PM: DEBUG: POST http://127.0.0.1:50291/session/10b04b514a550a1752a8155bc4f53d3e/element {"using": "css selector", "value": "[id=\"Password\"]"}
+12/02/2020 06:07:00 PM: DEBUG: http://127.0.0.1:50291 "POST /session/10b04b514a550a1752a8155bc4f53d3e/element HTTP/1.1" 200 88
+12/02/2020 06:07:00 PM: DEBUG: Finished Request
+12/02/2020 06:07:00 PM: DEBUG: POST http://127.0.0.1:50291/session/10b04b514a550a1752a8155bc4f53d3e/element/4f150fd0-0740-4bf2-a58c-d49469f4aba9/clear {"id": "4f150fd0-0740-4bf2-a58c-d49469f4aba9"}
+12/02/2020 06:07:00 PM: DEBUG: http://127.0.0.1:50291 "POST /session/10b04b514a550a1752a8155bc4f53d3e/element/4f150fd0-0740-4bf2-a58c-d49469f4aba9/clear HTTP/1.1" 200 14
+12/02/2020 06:07:00 PM: DEBUG: Finished Request
+12/02/2020 06:07:00 PM: DEBUG: POST http://127.0.0.1:50291/session/10b04b514a550a1752a8155bc4f53d3e/element {"using": "css selector", "value": "[id=\"Password\"]"}
+12/02/2020 06:07:00 PM: DEBUG: http://127.0.0.1:50291 "POST /session/10b04b514a550a1752a8155bc4f53d3e/element HTTP/1.1" 200 88
+12/02/2020 06:07:00 PM: DEBUG: Finished Request
+12/02/2020 06:07:00 PM: DEBUG: POST http://127.0.0.1:50291/session/10b04b514a550a1752a8155bc4f53d3e/element/4f150fd0-0740-4bf2-a58c-d49469f4aba9/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "4f150fd0-0740-4bf2-a58c-d49469f4aba9"}
+12/02/2020 06:07:00 PM: DEBUG: http://127.0.0.1:50291 "POST /session/10b04b514a550a1752a8155bc4f53d3e/element/4f150fd0-0740-4bf2-a58c-d49469f4aba9/value HTTP/1.1" 200 14
+12/02/2020 06:07:00 PM: DEBUG: Finished Request
+12/02/2020 06:07:00 PM: DEBUG: POST http://127.0.0.1:50291/session/10b04b514a550a1752a8155bc4f53d3e/element {"using": "xpath", "value": "//input[@value='Log in']"}
+12/02/2020 06:07:00 PM: DEBUG: http://127.0.0.1:50291 "POST /session/10b04b514a550a1752a8155bc4f53d3e/element HTTP/1.1" 200 88
+12/02/2020 06:07:00 PM: DEBUG: Finished Request
+12/02/2020 06:07:00 PM: DEBUG: POST http://127.0.0.1:50291/session/10b04b514a550a1752a8155bc4f53d3e/element/cb5e6b25-6bc9-4d37-948a-ba34e88fa8b0/click {"id": "cb5e6b25-6bc9-4d37-948a-ba34e88fa8b0"}
+12/02/2020 06:07:02 PM: DEBUG: http://127.0.0.1:50291 "POST /session/10b04b514a550a1752a8155bc4f53d3e/element/cb5e6b25-6bc9-4d37-948a-ba34e88fa8b0/click HTTP/1.1" 200 14
+12/02/2020 06:07:02 PM: DEBUG: Finished Request
+12/02/2020 06:07:02 PM: DEBUG: GET http://127.0.0.1:50291/session/10b04b514a550a1752a8155bc4f53d3e/title {}
+12/02/2020 06:07:02 PM: DEBUG: http://127.0.0.1:50291 "GET /session/10b04b514a550a1752a8155bc4f53d3e/title HTTP/1.1" 200 50
+12/02/2020 06:07:02 PM: DEBUG: Finished Request
+12/02/2020 06:07:02 PM: DEBUG: DELETE http://127.0.0.1:50291/session/10b04b514a550a1752a8155bc4f53d3e/window {}
+12/02/2020 06:07:03 PM: DEBUG: http://127.0.0.1:50291 "DELETE /session/10b04b514a550a1752a8155bc4f53d3e/window HTTP/1.1" 200 12
+12/02/2020 06:07:03 PM: DEBUG: Finished Request
+12/02/2020 06:07:03 PM: INFO: ************* Login Test is Passed ******** 
+12/02/2020 06:08:15 PM: DEBUG: POST http://127.0.0.1:50324/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+12/02/2020 06:08:15 PM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:50324
+12/02/2020 06:08:18 PM: DEBUG: http://127.0.0.1:50324 "POST /session HTTP/1.1" 200 725
+12/02/2020 06:08:18 PM: DEBUG: Finished Request
+12/02/2020 06:08:18 PM: INFO: ************** Test_002_DDT_Login *************
+12/02/2020 06:08:18 PM: INFO: ************* Verifying Login DDT Test ******** 
+12/02/2020 06:08:18 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/url {"url": "https://admin-demo.nopcommerce.com/"}
+12/02/2020 06:08:20 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/url HTTP/1.1" 200 14
+12/02/2020 06:08:20 PM: DEBUG: Finished Request
+12/02/2020 06:08:20 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element {"using": "css selector", "value": "[id=\"Email\"]"}
+12/02/2020 06:08:20 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element HTTP/1.1" 200 88
+12/02/2020 06:08:20 PM: DEBUG: Finished Request
+12/02/2020 06:08:20 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element/d8e26050-9799-4614-b91e-068389b212bc/clear {"id": "d8e26050-9799-4614-b91e-068389b212bc"}
+12/02/2020 06:08:20 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element/d8e26050-9799-4614-b91e-068389b212bc/clear HTTP/1.1" 200 14
+12/02/2020 06:08:20 PM: DEBUG: Finished Request
+12/02/2020 06:08:20 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element {"using": "css selector", "value": "[id=\"Email\"]"}
+12/02/2020 06:08:20 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element HTTP/1.1" 200 88
+12/02/2020 06:08:20 PM: DEBUG: Finished Request
+12/02/2020 06:08:20 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element/d8e26050-9799-4614-b91e-068389b212bc/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "d8e26050-9799-4614-b91e-068389b212bc"}
+12/02/2020 06:08:20 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element/d8e26050-9799-4614-b91e-068389b212bc/value HTTP/1.1" 200 14
+12/02/2020 06:08:20 PM: DEBUG: Finished Request
+12/02/2020 06:08:20 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element {"using": "css selector", "value": "[id=\"Password\"]"}
+12/02/2020 06:08:20 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element HTTP/1.1" 200 88
+12/02/2020 06:08:20 PM: DEBUG: Finished Request
+12/02/2020 06:08:20 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element/22109113-5ae8-4676-81ee-947afca249d2/clear {"id": "22109113-5ae8-4676-81ee-947afca249d2"}
+12/02/2020 06:08:20 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element/22109113-5ae8-4676-81ee-947afca249d2/clear HTTP/1.1" 200 14
+12/02/2020 06:08:20 PM: DEBUG: Finished Request
+12/02/2020 06:08:20 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element {"using": "css selector", "value": "[id=\"Password\"]"}
+12/02/2020 06:08:20 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element HTTP/1.1" 200 88
+12/02/2020 06:08:20 PM: DEBUG: Finished Request
+12/02/2020 06:08:20 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element/22109113-5ae8-4676-81ee-947afca249d2/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "22109113-5ae8-4676-81ee-947afca249d2"}
+12/02/2020 06:08:20 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element/22109113-5ae8-4676-81ee-947afca249d2/value HTTP/1.1" 200 14
+12/02/2020 06:08:20 PM: DEBUG: Finished Request
+12/02/2020 06:08:20 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element {"using": "xpath", "value": "//input[@value='Log in']"}
+12/02/2020 06:08:20 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element HTTP/1.1" 200 88
+12/02/2020 06:08:20 PM: DEBUG: Finished Request
+12/02/2020 06:08:20 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element/b74215e5-1b40-4e95-9b9e-eedec26d845b/click {"id": "b74215e5-1b40-4e95-9b9e-eedec26d845b"}
+12/02/2020 06:08:23 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element/b74215e5-1b40-4e95-9b9e-eedec26d845b/click HTTP/1.1" 200 14
+12/02/2020 06:08:23 PM: DEBUG: Finished Request
+12/02/2020 06:08:28 PM: DEBUG: GET http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/title {}
+12/02/2020 06:08:28 PM: DEBUG: http://127.0.0.1:50324 "GET /session/914f7da989cbb682395fcf676543d46a/title HTTP/1.1" 200 50
+12/02/2020 06:08:28 PM: DEBUG: Finished Request
+12/02/2020 06:08:28 PM: INFO: ******passed*********
+12/02/2020 06:08:28 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element {"using": "xpath", "value": "//a[normalize-space()='Logout']"}
+12/02/2020 06:08:28 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element HTTP/1.1" 200 88
+12/02/2020 06:08:28 PM: DEBUG: Finished Request
+12/02/2020 06:08:28 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element/714d876a-417c-4107-ace0-34562faa8cb9/click {"id": "714d876a-417c-4107-ace0-34562faa8cb9"}
+12/02/2020 06:08:30 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element/714d876a-417c-4107-ace0-34562faa8cb9/click HTTP/1.1" 200 14
+12/02/2020 06:08:30 PM: DEBUG: Finished Request
+12/02/2020 06:08:30 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element {"using": "css selector", "value": "[id=\"Email\"]"}
+12/02/2020 06:08:30 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element HTTP/1.1" 200 88
+12/02/2020 06:08:30 PM: DEBUG: Finished Request
+12/02/2020 06:08:30 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element/cc16351d-5d4e-4be2-9eeb-eb7f4ddf3c90/clear {"id": "cc16351d-5d4e-4be2-9eeb-eb7f4ddf3c90"}
+12/02/2020 06:08:30 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element/cc16351d-5d4e-4be2-9eeb-eb7f4ddf3c90/clear HTTP/1.1" 200 14
+12/02/2020 06:08:30 PM: DEBUG: Finished Request
+12/02/2020 06:08:30 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element {"using": "css selector", "value": "[id=\"Email\"]"}
+12/02/2020 06:08:30 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element HTTP/1.1" 200 88
+12/02/2020 06:08:30 PM: DEBUG: Finished Request
+12/02/2020 06:08:30 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element/cc16351d-5d4e-4be2-9eeb-eb7f4ddf3c90/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "cc16351d-5d4e-4be2-9eeb-eb7f4ddf3c90"}
+12/02/2020 06:08:30 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element/cc16351d-5d4e-4be2-9eeb-eb7f4ddf3c90/value HTTP/1.1" 200 14
+12/02/2020 06:08:30 PM: DEBUG: Finished Request
+12/02/2020 06:08:30 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element {"using": "css selector", "value": "[id=\"Password\"]"}
+12/02/2020 06:08:30 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element HTTP/1.1" 200 88
+12/02/2020 06:08:30 PM: DEBUG: Finished Request
+12/02/2020 06:08:30 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element/13285e82-94f5-4379-a92e-c71a7f39b651/clear {"id": "13285e82-94f5-4379-a92e-c71a7f39b651"}
+12/02/2020 06:08:30 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element/13285e82-94f5-4379-a92e-c71a7f39b651/clear HTTP/1.1" 200 14
+12/02/2020 06:08:30 PM: DEBUG: Finished Request
+12/02/2020 06:08:30 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element {"using": "css selector", "value": "[id=\"Password\"]"}
+12/02/2020 06:08:30 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element HTTP/1.1" 200 88
+12/02/2020 06:08:30 PM: DEBUG: Finished Request
+12/02/2020 06:08:30 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element/13285e82-94f5-4379-a92e-c71a7f39b651/value {"text": "adm", "value": ["a", "d", "m"], "id": "13285e82-94f5-4379-a92e-c71a7f39b651"}
+12/02/2020 06:08:30 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element/13285e82-94f5-4379-a92e-c71a7f39b651/value HTTP/1.1" 200 14
+12/02/2020 06:08:30 PM: DEBUG: Finished Request
+12/02/2020 06:08:30 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element {"using": "xpath", "value": "//input[@value='Log in']"}
+12/02/2020 06:08:30 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element HTTP/1.1" 200 88
+12/02/2020 06:08:30 PM: DEBUG: Finished Request
+12/02/2020 06:08:30 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element/1cabd3a6-b047-46ef-b789-6e31034d3516/click {"id": "1cabd3a6-b047-46ef-b789-6e31034d3516"}
+12/02/2020 06:08:30 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element/1cabd3a6-b047-46ef-b789-6e31034d3516/click HTTP/1.1" 200 14
+12/02/2020 06:08:30 PM: DEBUG: Finished Request
+12/02/2020 06:08:35 PM: DEBUG: GET http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/title {}
+12/02/2020 06:08:35 PM: DEBUG: http://127.0.0.1:50324 "GET /session/914f7da989cbb682395fcf676543d46a/title HTTP/1.1" 200 29
+12/02/2020 06:08:35 PM: DEBUG: Finished Request
+12/02/2020 06:08:35 PM: INFO: ***********Passed**********
+12/02/2020 06:08:35 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element {"using": "css selector", "value": "[id=\"Email\"]"}
+12/02/2020 06:08:35 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element HTTP/1.1" 200 88
+12/02/2020 06:08:35 PM: DEBUG: Finished Request
+12/02/2020 06:08:35 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element/cc16351d-5d4e-4be2-9eeb-eb7f4ddf3c90/clear {"id": "cc16351d-5d4e-4be2-9eeb-eb7f4ddf3c90"}
+12/02/2020 06:08:35 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element/cc16351d-5d4e-4be2-9eeb-eb7f4ddf3c90/clear HTTP/1.1" 200 14
+12/02/2020 06:08:35 PM: DEBUG: Finished Request
+12/02/2020 06:08:35 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element {"using": "css selector", "value": "[id=\"Email\"]"}
+12/02/2020 06:08:35 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element HTTP/1.1" 200 88
+12/02/2020 06:08:35 PM: DEBUG: Finished Request
+12/02/2020 06:08:35 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element/cc16351d-5d4e-4be2-9eeb-eb7f4ddf3c90/value {"text": "adm@yourstore.com", "value": ["a", "d", "m", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "cc16351d-5d4e-4be2-9eeb-eb7f4ddf3c90"}
+12/02/2020 06:08:35 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element/cc16351d-5d4e-4be2-9eeb-eb7f4ddf3c90/value HTTP/1.1" 200 14
+12/02/2020 06:08:35 PM: DEBUG: Finished Request
+12/02/2020 06:08:35 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element {"using": "css selector", "value": "[id=\"Password\"]"}
+12/02/2020 06:08:35 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element HTTP/1.1" 200 88
+12/02/2020 06:08:35 PM: DEBUG: Finished Request
+12/02/2020 06:08:35 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element/13285e82-94f5-4379-a92e-c71a7f39b651/clear {"id": "13285e82-94f5-4379-a92e-c71a7f39b651"}
+12/02/2020 06:08:36 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element/13285e82-94f5-4379-a92e-c71a7f39b651/clear HTTP/1.1" 200 14
+12/02/2020 06:08:36 PM: DEBUG: Finished Request
+12/02/2020 06:08:36 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element {"using": "css selector", "value": "[id=\"Password\"]"}
+12/02/2020 06:08:36 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element HTTP/1.1" 200 88
+12/02/2020 06:08:36 PM: DEBUG: Finished Request
+12/02/2020 06:08:36 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element/13285e82-94f5-4379-a92e-c71a7f39b651/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "13285e82-94f5-4379-a92e-c71a7f39b651"}
+12/02/2020 06:08:36 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element/13285e82-94f5-4379-a92e-c71a7f39b651/value HTTP/1.1" 200 14
+12/02/2020 06:08:36 PM: DEBUG: Finished Request
+12/02/2020 06:08:36 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element {"using": "xpath", "value": "//input[@value='Log in']"}
+12/02/2020 06:08:36 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element HTTP/1.1" 200 88
+12/02/2020 06:08:36 PM: DEBUG: Finished Request
+12/02/2020 06:08:36 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element/1cabd3a6-b047-46ef-b789-6e31034d3516/click {"id": "1cabd3a6-b047-46ef-b789-6e31034d3516"}
+12/02/2020 06:08:36 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element/1cabd3a6-b047-46ef-b789-6e31034d3516/click HTTP/1.1" 200 14
+12/02/2020 06:08:36 PM: DEBUG: Finished Request
+12/02/2020 06:08:41 PM: DEBUG: GET http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/title {}
+12/02/2020 06:08:41 PM: DEBUG: http://127.0.0.1:50324 "GET /session/914f7da989cbb682395fcf676543d46a/title HTTP/1.1" 200 29
+12/02/2020 06:08:41 PM: DEBUG: Finished Request
+12/02/2020 06:08:41 PM: INFO: ***********Passed**********
+12/02/2020 06:08:41 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element {"using": "css selector", "value": "[id=\"Email\"]"}
+12/02/2020 06:08:41 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element HTTP/1.1" 200 88
+12/02/2020 06:08:41 PM: DEBUG: Finished Request
+12/02/2020 06:08:41 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element/c40d90c6-c822-422e-9070-9ef4bb96b4de/clear {"id": "c40d90c6-c822-422e-9070-9ef4bb96b4de"}
+12/02/2020 06:08:41 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element/c40d90c6-c822-422e-9070-9ef4bb96b4de/clear HTTP/1.1" 200 14
+12/02/2020 06:08:41 PM: DEBUG: Finished Request
+12/02/2020 06:08:41 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element {"using": "css selector", "value": "[id=\"Email\"]"}
+12/02/2020 06:08:41 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element HTTP/1.1" 200 88
+12/02/2020 06:08:41 PM: DEBUG: Finished Request
+12/02/2020 06:08:41 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element/c40d90c6-c822-422e-9070-9ef4bb96b4de/value {"text": "adm@yourstore.com", "value": ["a", "d", "m", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "c40d90c6-c822-422e-9070-9ef4bb96b4de"}
+12/02/2020 06:08:41 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element/c40d90c6-c822-422e-9070-9ef4bb96b4de/value HTTP/1.1" 200 14
+12/02/2020 06:08:41 PM: DEBUG: Finished Request
+12/02/2020 06:08:41 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element {"using": "css selector", "value": "[id=\"Password\"]"}
+12/02/2020 06:08:41 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element HTTP/1.1" 200 88
+12/02/2020 06:08:41 PM: DEBUG: Finished Request
+12/02/2020 06:08:41 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element/2e525f30-095f-437e-8282-b9dd8a88fcdb/clear {"id": "2e525f30-095f-437e-8282-b9dd8a88fcdb"}
+12/02/2020 06:08:41 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element/2e525f30-095f-437e-8282-b9dd8a88fcdb/clear HTTP/1.1" 200 14
+12/02/2020 06:08:41 PM: DEBUG: Finished Request
+12/02/2020 06:08:41 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element {"using": "css selector", "value": "[id=\"Password\"]"}
+12/02/2020 06:08:41 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element HTTP/1.1" 200 88
+12/02/2020 06:08:41 PM: DEBUG: Finished Request
+12/02/2020 06:08:41 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element/2e525f30-095f-437e-8282-b9dd8a88fcdb/value {"text": "adm", "value": ["a", "d", "m"], "id": "2e525f30-095f-437e-8282-b9dd8a88fcdb"}
+12/02/2020 06:08:41 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element/2e525f30-095f-437e-8282-b9dd8a88fcdb/value HTTP/1.1" 200 14
+12/02/2020 06:08:41 PM: DEBUG: Finished Request
+12/02/2020 06:08:41 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element {"using": "xpath", "value": "//input[@value='Log in']"}
+12/02/2020 06:08:41 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element HTTP/1.1" 200 88
+12/02/2020 06:08:41 PM: DEBUG: Finished Request
+12/02/2020 06:08:41 PM: DEBUG: POST http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/element/47af712d-4292-4794-8a8e-3a7776ff126c/click {"id": "47af712d-4292-4794-8a8e-3a7776ff126c"}
+12/02/2020 06:08:42 PM: DEBUG: http://127.0.0.1:50324 "POST /session/914f7da989cbb682395fcf676543d46a/element/47af712d-4292-4794-8a8e-3a7776ff126c/click HTTP/1.1" 200 14
+12/02/2020 06:08:42 PM: DEBUG: Finished Request
+12/02/2020 06:08:47 PM: DEBUG: GET http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/title {}
+12/02/2020 06:08:47 PM: DEBUG: http://127.0.0.1:50324 "GET /session/914f7da989cbb682395fcf676543d46a/title HTTP/1.1" 200 29
+12/02/2020 06:08:47 PM: DEBUG: Finished Request
+12/02/2020 06:08:47 PM: INFO: ***********Passed**********
+12/02/2020 06:08:47 PM: INFO: ***Login DDT test passed***
+12/02/2020 06:08:47 PM: DEBUG: DELETE http://127.0.0.1:50324/session/914f7da989cbb682395fcf676543d46a/window {}
+12/02/2020 06:08:47 PM: DEBUG: http://127.0.0.1:50324 "DELETE /session/914f7da989cbb682395fcf676543d46a/window HTTP/1.1" 200 12
+12/02/2020 06:08:47 PM: DEBUG: Finished Request
+12/02/2020 06:08:47 PM: INFO: ******* End of Login DDT Test ************
+12/02/2020 06:08:47 PM: INFO: ************Completed TC_LoginDDT_002********
+12/10/2020 02:41:18 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 02:41:24 PM: INFO: ************* Login succesful **********
+12/10/2020 02:41:24 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 02:41:26 PM: INFO: ************* Providing customer info **********
+12/10/2020 02:43:32 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 02:43:39 PM: INFO: ************* Login succesful **********
+12/10/2020 02:43:39 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 02:43:41 PM: INFO: ************* Providing customer info **********
+12/10/2020 02:48:18 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 02:48:24 PM: INFO: ************* Login succesful **********
+12/10/2020 02:48:24 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 02:48:26 PM: INFO: ************* Providing customer info **********
+12/10/2020 02:48:38 PM: INFO: ************* Saving customer info **********
+12/10/2020 02:48:38 PM: INFO: ********* Add customer validation started *****************
+12/10/2020 02:48:38 PM: INFO: ********* Add customer Test Passed *********
+12/10/2020 02:48:38 PM: INFO: ******* Ending Add customer test **********
+12/10/2020 02:48:47 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 02:48:53 PM: INFO: ************* Login succesful **********
+12/10/2020 02:48:53 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 02:49:26 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 02:49:33 PM: INFO: ************* Login succesful **********
+12/10/2020 02:49:33 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 02:50:19 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 02:50:26 PM: INFO: ************* Login succesful **********
+12/10/2020 02:50:26 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 02:50:28 PM: INFO: ************* Providing customer info **********
+12/10/2020 02:50:39 PM: INFO: ************* Saving customer info **********
+12/10/2020 02:50:39 PM: INFO: ********* Add customer validation started *****************
+12/10/2020 02:50:39 PM: INFO: ********* Add customer Test Passed *********
+12/10/2020 02:50:39 PM: INFO: ******* Ending Add customer test **********
+12/10/2020 02:52:09 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 02:52:17 PM: INFO: ************* Login succesful **********
+12/10/2020 02:52:17 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 02:52:19 PM: INFO: ************* Providing customer info **********
+12/10/2020 02:58:45 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 02:58:52 PM: INFO: ************* Login succesful **********
+12/10/2020 02:58:52 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 02:59:35 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 02:59:41 PM: INFO: ************* Login succesful **********
+12/10/2020 02:59:41 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 02:59:43 PM: INFO: ************* Providing customer info **********
+12/10/2020 03:00:57 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:01:02 PM: INFO: ************* Login succesful **********
+12/10/2020 03:01:02 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:01:04 PM: INFO: ************* Providing customer info **********
+12/10/2020 03:01:42 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:01:49 PM: INFO: ************* Login succesful **********
+12/10/2020 03:01:49 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:02:35 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:02:41 PM: INFO: ************* Login succesful **********
+12/10/2020 03:02:41 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:03:03 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:03:10 PM: INFO: ************* Login succesful **********
+12/10/2020 03:03:10 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:03:12 PM: INFO: ************* Providing customer info **********
+12/10/2020 03:07:21 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:07:28 PM: INFO: ************* Login succesful **********
+12/10/2020 03:07:28 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:07:39 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:07:46 PM: INFO: ************* Login succesful **********
+12/10/2020 03:07:46 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:12:08 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:12:15 PM: INFO: ************* Login succesful **********
+12/10/2020 03:12:15 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:12:17 PM: INFO: ************* Providing customer info **********
+12/10/2020 03:14:16 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:14:23 PM: INFO: ************* Login succesful **********
+12/10/2020 03:14:23 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:14:44 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:14:51 PM: INFO: ************* Login succesful **********
+12/10/2020 03:14:51 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:14:53 PM: INFO: ************* Providing customer info **********
+12/10/2020 03:17:34 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:17:40 PM: INFO: ************* Login succesful **********
+12/10/2020 03:17:40 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:17:43 PM: INFO: ************* Providing customer info **********
+12/10/2020 03:18:40 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:18:47 PM: INFO: ************* Login succesful **********
+12/10/2020 03:18:47 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:19:03 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:19:09 PM: INFO: ************* Login succesful **********
+12/10/2020 03:19:09 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:19:11 PM: INFO: ************* Providing customer info **********
+12/10/2020 03:20:56 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:21:03 PM: INFO: ************* Login succesful **********
+12/10/2020 03:21:03 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:21:18 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:21:25 PM: INFO: ************* Login succesful **********
+12/10/2020 03:21:25 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:21:36 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:21:42 PM: INFO: ************* Login succesful **********
+12/10/2020 03:21:42 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:22:03 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:22:09 PM: INFO: ************* Login succesful **********
+12/10/2020 03:22:09 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:22:11 PM: INFO: ************* Providing customer info **********
+12/10/2020 03:26:19 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:26:26 PM: INFO: ************* Login succesful **********
+12/10/2020 03:26:26 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:26:28 PM: INFO: ************* Providing customer info **********
+12/10/2020 03:27:20 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:27:27 PM: INFO: ************* Login succesful **********
+12/10/2020 03:27:27 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:27:28 PM: INFO: ************* Providing customer info **********
+12/10/2020 03:27:55 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:28:02 PM: INFO: ************* Login succesful **********
+12/10/2020 03:28:02 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:28:04 PM: INFO: ************* Providing customer info **********
+12/10/2020 03:30:37 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:30:43 PM: INFO: ************* Login succesful **********
+12/10/2020 03:30:43 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:30:56 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:31:03 PM: INFO: ************* Login succesful **********
+12/10/2020 03:31:03 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:31:05 PM: INFO: ************* Providing customer info **********
+12/10/2020 03:31:06 PM: INFO: ************* Saving customer info **********
+12/10/2020 03:31:06 PM: INFO: ********* Add customer validation started *****************
+12/10/2020 03:31:07 PM: INFO: ********* Add customer Test Passed *********
+12/10/2020 03:31:07 PM: INFO: ******* Ending Add customer test **********
+12/10/2020 03:31:24 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:31:29 PM: INFO: ************* Login succesful **********
+12/10/2020 03:31:29 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:31:48 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:31:55 PM: INFO: ************* Login succesful **********
+12/10/2020 03:31:55 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:33:16 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:33:22 PM: INFO: ************* Login succesful **********
+12/10/2020 03:33:22 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:33:43 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:33:50 PM: INFO: ************* Login succesful **********
+12/10/2020 03:33:50 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:33:52 PM: INFO: ************* Providing customer info **********
+12/10/2020 03:34:15 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:34:21 PM: INFO: ************* Login succesful **********
+12/10/2020 03:34:21 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:34:34 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:34:41 PM: INFO: ************* Login succesful **********
+12/10/2020 03:34:41 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:34:43 PM: INFO: ************* Providing customer info **********
+12/10/2020 03:34:44 PM: INFO: ************* Saving customer info **********
+12/10/2020 03:34:44 PM: INFO: ********* Add customer validation started *****************
+12/10/2020 03:34:45 PM: INFO: ********* Add customer Test Passed *********
+12/10/2020 03:34:45 PM: INFO: ******* Ending Add customer test **********
+12/10/2020 03:35:08 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:35:14 PM: INFO: ************* Login succesful **********
+12/10/2020 03:35:14 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:35:27 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:35:33 PM: INFO: ************* Login succesful **********
+12/10/2020 03:35:33 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:35:49 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:35:55 PM: INFO: ************* Login succesful **********
+12/10/2020 03:35:55 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:35:57 PM: INFO: ************* Providing customer info **********
+12/10/2020 03:35:59 PM: INFO: ************* Saving customer info **********
+12/10/2020 03:35:59 PM: INFO: ********* Add customer validation started *****************
+12/10/2020 03:35:59 PM: INFO: ********* Add customer Test Passed *********
+12/10/2020 03:35:59 PM: INFO: ******* Ending Add customer test **********
+12/10/2020 03:36:35 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:36:42 PM: INFO: ************* Login succesful **********
+12/10/2020 03:36:42 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:41:25 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:41:31 PM: INFO: ************* Login succesful **********
+12/10/2020 03:41:31 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:41:33 PM: INFO: ************* Providing customer info **********
+12/10/2020 03:41:35 PM: INFO: ************* Saving customer info **********
+12/10/2020 03:41:35 PM: INFO: ********* Add customer validation started *****************
+12/10/2020 03:41:35 PM: INFO: ********* Add customer Test Passed *********
+12/10/2020 03:41:36 PM: INFO: ******* Ending Add customer test **********
+12/10/2020 03:41:41 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:41:46 PM: INFO: ************* Login succesful **********
+12/10/2020 03:41:46 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:42:03 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:42:09 PM: INFO: ************* Login succesful **********
+12/10/2020 03:42:09 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:42:11 PM: INFO: ************* Providing customer info **********
+12/10/2020 03:42:13 PM: INFO: ************* Saving customer info **********
+12/10/2020 03:42:13 PM: INFO: ********* Add customer validation started *****************
+12/10/2020 03:42:13 PM: INFO: ********* Add customer Test Passed *********
+12/10/2020 03:42:13 PM: INFO: ******* Ending Add customer test **********
+12/10/2020 03:42:22 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:42:28 PM: INFO: ************* Login succesful **********
+12/10/2020 03:42:28 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:42:30 PM: INFO: ************* Providing customer info **********
+12/10/2020 03:42:32 PM: INFO: ************* Saving customer info **********
+12/10/2020 03:42:32 PM: INFO: ********* Add customer validation started *****************
+12/10/2020 03:42:32 PM: INFO: ********* Add customer Test Passed *********
+12/10/2020 03:42:32 PM: INFO: ******* Ending Add customer test **********
+12/10/2020 03:42:41 PM: INFO: ************* Test_003_AddCustomer **********
+12/10/2020 03:42:48 PM: INFO: ************* Login succesful **********
+12/10/2020 03:42:48 PM: INFO: ******* Starting Add Customer Test **********
+12/10/2020 03:42:51 PM: INFO: ************* Providing customer info **********
+12/10/2020 03:42:53 PM: INFO: ************* Saving customer info **********
+12/10/2020 03:42:53 PM: INFO: ********* Add customer validation started *****************
+12/10/2020 03:42:53 PM: INFO: ********* Add customer Test Passed *********
+12/10/2020 03:42:53 PM: INFO: ******* Ending Add customer test **********
+12/11/2020 01:47:44 PM: INFO: ************* SearchCustomerByEmail_004 **********
+12/11/2020 01:47:51 PM: INFO: ************* Login succesful **********
+12/11/2020 01:47:51 PM: INFO: ******* Starting Search Customer By Email **********
+12/11/2020 01:48:04 PM: INFO: ************* SearchCustomerByEmail_004 **********
+12/11/2020 01:48:10 PM: INFO: ************* Login succesful **********
+12/11/2020 01:48:10 PM: INFO: ******* Starting Search Customer By Email **********
+12/11/2020 01:48:11 PM: INFO: ************* searching customer by emailID **********
+12/11/2020 01:48:16 PM: INFO: ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+12/11/2020 01:52:24 PM: INFO: ************* SearchCustomerByName_005 **********
+12/11/2020 01:52:31 PM: INFO: ************* Login succesful **********
+12/11/2020 01:52:31 PM: INFO: ******* Starting Search Customer By Name **********
+12/11/2020 01:52:35 PM: INFO: ************* searching customer by Name **********
+12/11/2020 01:52:40 PM: INFO: ***************  TC_SearchCustomerByName_005 Finished  *********** 
+12/15/2020 01:49:50 PM: INFO: ************* Test_001_Login *************
+12/15/2020 01:49:50 PM: INFO: ************* verify Home Page Title ******** 
+12/15/2020 01:49:52 PM: INFO: ************* Home Page Title Test is Passed ******** 
+12/15/2020 01:49:55 PM: INFO: ************* Verifying Login Test ******** 
+12/15/2020 01:50:00 PM: INFO: ************* Login Test is Passed ******** 
+12/15/2020 01:52:11 PM: INFO: ************* Test_001_Login *************
+12/15/2020 01:52:11 PM: INFO: ************* verify Home Page Title ******** 
+12/15/2020 01:52:14 PM: INFO: ************* Home Page Title Test is Passed ******** 
+12/15/2020 01:52:17 PM: INFO: ************* Verifying Login Test ******** 
+12/15/2020 01:52:22 PM: INFO: ************* Login Test is Passed ******** 
+12/15/2020 01:52:25 PM: INFO: ************* Test_003_AddCustomer **********
+12/15/2020 01:52:33 PM: INFO: ************* Login succesful **********
+12/15/2020 01:52:33 PM: INFO: ******* Starting Add Customer Test **********
+12/15/2020 01:52:35 PM: INFO: ************* Providing customer info **********
+12/15/2020 01:52:38 PM: INFO: ************* Saving customer info **********
+12/15/2020 01:52:38 PM: INFO: ********* Add customer validation started *****************
+12/15/2020 01:52:38 PM: INFO: ********* Add customer Test Passed *********
+12/15/2020 01:52:38 PM: INFO: ******* Ending Add customer test **********
+12/15/2020 02:25:24 PM: INFO: ************* Test_001_Login *************
+12/15/2020 02:25:24 PM: INFO: ************* verify Home Page Title ******** 
+12/15/2020 02:25:27 PM: INFO: ************* Home Page Title Test is Passed ******** 
+12/15/2020 02:25:30 PM: INFO: ************* Verifying Login Test ******** 
+12/15/2020 02:25:36 PM: INFO: ************* Login Test is Passed ******** 
+12/15/2020 02:25:39 PM: INFO: ************* Test_003_AddCustomer **********
+12/15/2020 02:25:46 PM: INFO: ************* Login succesful **********
+12/15/2020 02:25:46 PM: INFO: ******* Starting Add Customer Test **********
+12/15/2020 02:25:49 PM: INFO: ************* Providing customer info **********
+12/15/2020 02:25:51 PM: INFO: ************* Saving customer info **********
+12/15/2020 02:25:51 PM: INFO: ********* Add customer validation started *****************
+12/15/2020 02:25:51 PM: INFO: ********* Add customer Test Passed *********
+12/15/2020 02:25:51 PM: INFO: ******* Ending Add customer test **********
+12/16/2020 05:53:52 PM: INFO: ************* Test_001_Login *************
+12/16/2020 05:53:52 PM: INFO: ************* verify Home Page Title ******** 
+12/16/2020 05:53:54 PM: INFO: ************* Home Page Title Test is Passed ******** 
+12/16/2020 05:53:58 PM: INFO: ************* Verifying Login Test ******** 
+12/16/2020 05:54:04 PM: INFO: ************* Login Test is Passed ******** 
+12/16/2020 05:54:16 PM: INFO: ************* Test_001_Login *************
+12/16/2020 05:54:16 PM: INFO: ************* verify Home Page Title ******** 
+12/16/2020 05:54:18 PM: INFO: ************* Home Page Title Test is Passed ******** 
+12/16/2020 05:54:21 PM: INFO: ************* Verifying Login Test ******** 
+12/16/2020 05:54:27 PM: INFO: ************* Login Test is Passed ******** 
+12/16/2020 05:54:31 PM: INFO: ************* Test_003_AddCustomer **********
+12/16/2020 05:54:40 PM: INFO: ************* Login succesful **********
+12/16/2020 05:54:40 PM: INFO: ******* Starting Add Customer Test **********
+12/16/2020 05:55:26 PM: INFO: ************* Test_001_Login *************
+12/16/2020 05:55:26 PM: INFO: ************* verify Home Page Title ******** 
+12/16/2020 05:55:28 PM: INFO: ************* Home Page Title Test is Passed ******** 
+12/16/2020 05:55:32 PM: INFO: ************* Verifying Login Test ******** 
+12/16/2020 05:55:37 PM: INFO: ************* Login Test is Passed ******** 
+12/16/2020 05:55:41 PM: INFO: ************* Test_003_AddCustomer **********
+12/16/2020 05:55:49 PM: INFO: ************* Login succesful **********
+12/16/2020 05:55:49 PM: INFO: ******* Starting Add Customer Test **********
+12/16/2020 05:55:51 PM: INFO: ************* Providing customer info **********
+12/16/2020 05:55:53 PM: INFO: ************* Saving customer info **********
+12/16/2020 05:55:53 PM: INFO: ********* Add customer validation started *****************
+12/16/2020 05:55:53 PM: INFO: ********* Add customer Test Passed *********
+12/16/2020 05:55:53 PM: INFO: ******* Ending Add customer test **********
